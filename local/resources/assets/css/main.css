@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+body, header, div, p, nav, h1, h2, h3,h4, h5, h6,ul, li, a, i {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	font-size: 100%;
+	font-family: 'Roboto-Medium', 'Open Sans', sans-serif;
+}
+* {
+  	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h2 {
+	font-size: 45px;
+	color: #373737;
+	letter-spacing: 3px;
+}
+h3 {
+	font-size: 30px;
+	color: #515151;
+}
+h4 {
+	font-size: 25px;
+    font-weight: normal;
+ 	color: #515151;
+    letter-spacing: 0.6px;
+}
+h5 {
+  	font-size: 19px;
+    font-weight: normal;
+ 	color: #515151;
+    letter-spacing: 0.6px;
+}
+h6 {
+	font-size: 15px;
+    color: #94949d;
+    letter-spacing: 0.6px;
+    font-weight: normal;
+}
+.container {
+	position: relative;
+	overflow: hidden;
+	margin:0 auto;
+	width: 1170px;
+}
+footer {
+    height: 350px;
+   	background: #fff;
+   	width: 100%;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    z-index: 0;
+}
+footer .copyright {
+    height: 34px;
+    padding: 6px;
+    width: 100%;
+    text-align: center;
+    background: #373737;
+    color: #fff;
+     z-index: 3;
+    position: absolute;
+    bottom: 0;
+}
+footer .box {
+    z-index: 3;
+    background: #fff;
+    width: 100%;
+    position: relative;
+    height: inherit;
+    bottom: 12px;
+}
+footer .container {
+    padding: 96px 0;
+}
+footer .contact h3 {
+    width: 40%;
+    float: left;
+}
+footer .contact .info {
+	width: 30%;
+	float: left;
+}
+footer .contact .info h5 {
+	padding-top: 10px;
+}
+footer .container .button {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+footer .container .button button {
+    min-width: 125px;
+    padding: 2px 15px;
+    line-height: 35px;
+    font-size: 13px;
+    display: inline-block;
+    border: 2px solid #515151;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    background-color:#515151;
+}
+footer .container .button button:hover {
+    background-color:#fff;
+    color: #515151;
+}
+footer #map-canvas {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    bottom: 12px;
+}
+.box-inactive {
+    z-index: 0 !important;
+}
