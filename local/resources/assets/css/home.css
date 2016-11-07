@@ -1,0 +1,150 @@
+.jssorb05 {
+    position: absolute;
+}
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url('../img/slider/b05.png') no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jssorb05 div {
+    background-position: -7px -7px;
+}
+.jssorb05 div:hover, .jssorb05 .av:hover {
+    background-position: -37px -7px;
+}
+.jssorb05 .av {
+    background-position: -67px -7px;
+}
+.jssorb05 .dn, .jssorb05 .dn:hover {
+    background-position: -97px -7px;
+}
+.jssora22l, .jssora22r {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 58px;
+    cursor: pointer;
+    background: url('../img/slider/a22.png') center center no-repeat;
+    overflow: hidden;
+}
+.jssora22l {
+    background-position: -10px -31px;
+}
+.jssora22r {
+    background-position: -70px -31px;
+}
+.jssora22l:hover {
+    background-position: -130px -31px;
+}
+.jssora22r:hover {
+    background-position: -190px -31px;
+}
+.jssora22l.jssora22ldn {
+    background-position: -250px -31px;
+}
+.jssora22r.jssora22rdn {
+    background-position: -310px -31px;
+}
+/*pocinje about us el*/
+.about-us {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	float: left;
+    background: #fff;
+}
+.about-us .container .text {
+	width: 33%;
+	float: left;
+	padding-bottom: 130px;
+	position: relative;
+	margin: 0 auto; 
+}
+.about-us .container h2 {	
+	width: 100%;
+	text-align: center;
+    padding: 100px 0 50px
+}
+.about-us .container h3 {	
+	width: 100%;
+	text-align: center;
+    padding: 0 0 50px
+}
+.about-us .container h4 {	
+	text-align: left;
+    padding: 0 0 15px;
+}
+.about-us .container .text h5 {
+    width: 95%;   
+}
+/*zavrsavase about us*/
+#map-canvas {
+	width: 100%;
+    height: 500px;
+}
+
+#howWeDoIt {
+    float: left;
+    width: 100%;
+}
+#howWeDoIt .howWeDoIt-box {
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 0;
+}
+#howWeDoIt .howWeDoIt-box h2 {
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+#howWeDoIt .howWeDoIt-box .desc h5 {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 18px;
+    text-align: center;
+}
+#howWeDoIt .howWeDoIt-box .logos {
+    height: 400px;
+    margin: 0 auto;
+    width: 870px;
+    padding-top: 86px;
+}
+#howWeDoIt .howWeDoIt-box .logos img {
+    float: left;
+    padding-bottom: 90px;
+    width: 26%;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+#howWeDoIt .howWeDoIt-box .logos img:hover {
+    filter: grayscale(0);
+}
+#howWeDoIt .howWeDoIt-box .logos img:nth-child(2) {
+    margin: 0 8%;
+}
+#howWeDoIt .howWeDoIt-box .logos img:nth-child(5) {
+    margin: 0 11%;
+}
+#howWeDoIt .howWeDoIt-box .logos img:first-of-type {
+    width: 31%;
+    padding-top: 30px;
+}
+#howWeDoIt .howWeDoIt-box .logos img:nth-child(6) {
+    width: 20%;
+    padding-top: 40px;
+}
+#howWeDoIt .howWeDoIt-box .logos img:nth-child(4),
+#howWeDoIt .howWeDoIt-box .logos img:nth-child(5),
+#howWeDoIt .howWeDoIt-box .logos img:nth-child(6) {
+    padding-bottom: 50px;
+}
+.grey-line {
+    height: 2px;
+    width: 100%;
+    background: #515151;
+    float: left;
+}

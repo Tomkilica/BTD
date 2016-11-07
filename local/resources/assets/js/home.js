@@ -1,14 +1,15 @@
 
 $( document ).ready(function() {
-	$(window).scroll(function() {
-		$('.sl-box .cl').each(function(){
-			var imagePos = $(this).offset().top;
-			var topOfWindow = $(window).scrollTop();
-				if (imagePos < topOfWindow + 800) {
-					$(this).addClass("slideLeft");
-				}
-		});
-	});
+  
+	// $(window).scroll(function() {
+	// 	$('.sl-box .cl').each(function(){
+	// 		var imagePos = $(this).offset().top;
+	// 		var topOfWindow = $(window).scrollTop();
+	// 			if (imagePos < topOfWindow + 800) {
+	// 				$(this).addClass("slideLeft");
+	// 			}
+	// 	});
+	// });
 
 	function scrollNav() {
 		  $('ul a').click(function(){  
@@ -21,24 +22,40 @@ $( document ).ready(function() {
 	}
 	scrollNav();
 
- 	$('#arrow').on('click', function(){
-		$('#more-info').toggleClass('more-info-active');
-    $('#img-text').toggleClass('img-text-active');
-    $(this).toggleClass('arrow-active');
-    $('#icon').toggleClass('icon-active');    
-    $('#product-title').toggleClass('product-title-active'); 
-	});
-  $('#arrow-second').on('click', function(){
-    $('#more-info-second').toggleClass('more-info-active');
-    $('#img-text-second').toggleClass('img-text-active');
-    $(this).toggleClass('arrow-active');
-    $('#icon-second').toggleClass('icon-active');    
-    $('#product-title-second').toggleClass('product-title-active'); 
+
+  $( ".header-button" ).click(function() {
+      $( "header" ).toggleClass( "active" );
   });
 
- 	$('footer .container .button button').on('click', function(){
-		$('footer .box').toggleClass('box-inactive');
-	});
+  var img = $(".logo-img");
+
+  $(window).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 700) {
+      if(!img.hasClass("opacity-0")) {
+        img.fadeOut(100, function() {
+          img.addClass( "opacity-0" );
+          });       
+      }
+    } else {
+      img.fadeIn(100, function() {
+        img.removeClass( "opacity-0" );
+        });
+    }
+  });
+
+  $(".header-button").click(function(){
+    if(img.hasClass("opacity-0")) {
+      img.fadeIn(100, function() {
+        img.removeClass( "opacity-0" );
+        });       
+    } else if(!$(".transperent").hasClass("active") && $(window).scrollTop() > 700) {
+      img.fadeOut(1000, function() {
+        img.addClass( "opacity-0" );
+        });   
+    }
+  });
+  
 
   function initializeMap() {
     	var mapCanvas = document.getElementById('map-canvas');
@@ -78,10 +95,6 @@ $( document ).ready(function() {
       		mapTypeId: google.maps.MapTypeId.DEFAULT 
     	}	
     	var map = new google.maps.Map( document.getElementById( "map-canvas" ), mapOptions);
-      var centerControlDiv = document.createElement('div');
-      var centerControl = new CenterControl(centerControlDiv, map);
-      centerControlDiv.index = 1;
-      map.controls[google.maps.ControlPosition.RIGHT_TOP].push(centerControlDiv);
       	// var image    = {
       	// 	url: "http://colorcentar.com/colormap.png",
       	// 	// This marker is 20 pixels wide by 32 pixels tall.
@@ -95,44 +108,61 @@ $( document ).ready(function() {
       	var marker = new google.maps.Marker({
       		position: myLatlng,
       		map: map,
-      		title: 'Lala'
+      		title: 'BTD'
       		// icon: image
       	});
 
   }
   google.maps.event.addDomListener(window, 'load', initializeMap);
-   
-  /**
-   * The CenterControl adds a control to the map that recenters the map on
-   * This constructor takes the control DIV as an argument.
-   * @constructor
-   */
-  function CenterControl(controlDiv, map) {
-      // Set CSS for the control border.
-      var controlUI = document.createElement('div');
-      controlUI.style.marginTop = '20px';
-      controlUI.style.marginRight = '11px';
-      controlUI.style.height = '27px';
-      controlUI.style.width = '28px';
-      controlUI.style.cursor = 'pointer';
-      controlUI.style.boxShadow = 'rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px';
-      controlUI.style.borderRadius = '2px';
-      controlUI.style.backgroundColor = 'rgb(255, 255, 255)';
-      controlUI.title = '';
-      controlDiv.appendChild(controlUI);
-      // Set CSS for the control interior.
-      var controlText = document.createElement('div');
-      controlText.style.color = 'rgb(106, 106, 106)';
-      controlText.style.fontSize = '18px';
-      controlText.style.lineHeight = '23px';
-      controlText.style.paddingLeft = '9px';
-      controlText.style.fontWeight = 'bold';
-      controlText.innerHTML = 'x';
-      controlUI.appendChild(controlText);
-      // Setup the click event listeners: simply set the map
-      controlUI.addEventListener('click', function() {
-        $('footer .box').toggleClass('box-inactive');
-      });
-  }
-	
+   	
+});
+
+
+ jQuery(document).ready(function ($) {
+      var jssor_1_SlideoTransitions = [
+        [{ b: 5500, d: 3000, o: -1, r: 240, e: { r: 2 } }],
+        [{ b: -1, d: 1, o: -1, c: { x: 51.0, t: -51.0 } }, { b: 0, d: 1000, o: 1, c: { x: -51.0, t: 51.0 }, e: { o: 7, c: { x: 7, t: 7 } } }],
+        [{ b: -1, d: 1, o: -1, sX: 9, sY: 9 }, { b: 1000, d: 1000, o: 1, sX: -9, sY: -9, e: { sX: 2, sY: 2 } }],
+        [{ b: -1, d: 1, o: -1, r: -180, sX: 9, sY: 9 }, { b: 2000, d: 1000, o: 1, r: 180, sX: -9, sY: -9, e: { r: 2, sX: 2, sY: 2 } }],
+        [{ b: -1, d: 1, o: -1 }, { b: 3000, d: 2000, y: 180, o: 1, e: { y: 16 } }],
+        [{ b: -1, d: 1, o: -1, r: -150 }, { b: 7500, d: 1600, o: 1, r: 150, e: { r: 3 } }],
+        [{ b: 10000, d: 2000, x: -379, e: { x: 7 } }],
+        [{ b: 10000, d: 2000, x: -379, e: { x: 7 } }],
+        [{ b: -1, d: 1, o: -1, r: 288, sX: 9, sY: 9 }, { b: 9100, d: 900, x: -1400, y: -660, o: 1, r: -288, sX: -9, sY: -9, e: { r: 6 } }, { b: 10000, d: 1600, x: -200, o: -1, e: { x: 16 } }]
+      ];
+      var jssor_1_options = {
+          $AutoPlay: true,
+          $SlideDuration: 800,
+          $AutoPlaySteps: 1,
+          $AutoPlayInterval: 6000,
+          $PauseOnHover: 0,
+          $SlideEasing: $Jease$.$OutQuint,
+          $CaptionSliderOptions: {
+              $Class: $JssorCaptionSlideo$,
+              $Transitions: jssor_1_SlideoTransitions
+          },
+          $ArrowNavigatorOptions: {
+              $Class: $JssorArrowNavigator$
+          },
+          $BulletNavigatorOptions: {
+              $Class: $JssorBulletNavigator$
+          }
+      };
+      var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+      //responsive code begin
+      //you can remove responsive code if you don't want the slider scales while window resizing
+      function ScaleSlider() {
+          var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+          if (refSize) {
+              refSize = Math.min(refSize, 1920);
+              jssor_1_slider.$ScaleWidth(refSize);
+          }
+          else {
+              window.setTimeout(ScaleSlider, 30);
+          }
+      }
+      ScaleSlider();
+      $(window).bind("load", ScaleSlider);
+      $(window).bind("resize", ScaleSlider);
+      $(window).bind("orientationchange", ScaleSlider);
 });

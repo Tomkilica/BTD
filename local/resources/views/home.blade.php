@@ -2,5 +2,74 @@
 
 
 @section('content')
-	
+	<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 520px; overflow: hidden; visibility: hidden;">
+	    <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+	        <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+	        <div style="position:absolute;display:block;background:url('./local/resources/assets/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+	    </div>
+	    <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 520px; overflow: hidden;">
+	        <div data-p="225.00" style="display: none;">
+	            <img data-u="image" src="./local/resources/assets/img/home/light-background.jpg" />
+	            <img  data-t="1" style="position: absolute; top: 0px; left: 0px;" src="./local/resources/assets/img/home/8czrjAbji.png" />
+
+	            <div style="position: absolute; top: 25%; left: 30px; left: 50%; width: 440px; height: 60px;margin-left:-220px;font-size: 40px; color: #ffffff; line-height: 60px;">WELCOME TO BTD</div>
+	            <div style="position: absolute; top: 35%; left: 50%; width: 630px; height: 50px;margin-left:-306px; font-size: 40px; color: #ffffff;">Implement Digital Solutions</div>
+ 	        </div>
+	    <!--    	<div data-p="225.00" style="display: none;">
+	            <img data-u="image" src="./local/resources/assets/img/home/1.jpg" />
+	        </div>
+	        <div data-p="225.00" style="display: none;">
+	            <img data-u="image" src="./local/resources/assets/img/home/2.jpg" />
+	        </div> -->
+	    </div>
+	    <!-- Bullet Navigator 
+	    <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+	        <div data-u="prototype" style="width:16px;height:16px;"></div>
+	    </div>-->
+	    <!-- Arrow Navigator -->
+	    <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+	    <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+	    <a href="http://www.jssor.com" style="display:none"></a>
+	</div>
+	<!-- pocinje about us el -->
+	<div id="onama" class="about-us">
+		<div class="container">
+			<h2>WELCOME TO BTD</h2>
+			<h3>We are a software service company</h3>
+			<div class="text">
+				<h4>Design</h4>
+				<h5>We are in qualitative not a quantitative business. People have already seen the current trends and now they want the future one. Following directions and standards in design is not our way, we are here to set them. Our talented team working hard to add true value to the user experience.</h5>				
+			</div>
+			<div class="text">
+				<h4>Projects</h4>
+				<h5>We work on some of the most interesting and challenging projects where we offer bold, practical and innovative solutions.
+Our focus is on the next generation, current and future trends and enhancing collaboration between software and end users.</h5>				
+			</div>
+			<div class="text">
+				<h4>Tsst</h4>
+				<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</h5>				
+			</div>
+		</div>
+	</div>
+	<!--zavrsava se about us el  -->
+	<div id="map-canvas"></div>
+	 <div id="howWeDoIt">
+    	<div class="howWeDoIt-box">
+	        <h2>How We Do Software Development</h2>
+	        <div class="line"></div>
+	        <div class="desc">
+	        	<h5>Dataway’s technology partnerships are based on our broad industry knowledge and expertise, and are carefully chosen on the merits of each partners’ products. We have forged strong relationships with our partners over our long history, and these relationships enable us to deliver the very best solutions to you. We only recommend products that are tested and trusted, and our partners often rely on our feedback to help them evolve their products. Our team is constantly evaluating and researching new offerings as well as proven standards in order to meet our clients' diverse business objectives.</h5>
+			</div>
+            <div class="logos">
+                <img src="./local/resources/assets/img/use/responsive-web-design.png"  alt="">
+                <img src="./local/resources/assets/img/use/MSDotNetFrameworkIcon.png" alt="">
+               	<img src="./local/resources/assets/img/use/angular-icon.png" alt="">
+                <img src="./local/resources/assets/img/use/web-analytics-data-analysis.png" alt="">
+				<img src="./local/resources/assets/img/use/Internet-php-icon.png" alt="">    
+                <img src="./local/resources/assets/img/use/db.png" alt="">
+      		</div>
+        </div>
+    </div>
+    <div class="grey-line"></div>
+	<script type="text/javascript" src="./local/resources/assets/js/jssor.slider.mini.js"></script>
 @endsection
