@@ -38,12 +38,11 @@
 			<h3>We are a software service company</h3>
 			<div class="text">
 				<h4>Design</h4>
-				<h5>We are in qualitative not a quantitative business. People have already seen the current trends and now they want the future one. Following directions and standards in design is not our way, we are here to set them. Our talented team working hard to add true value to the user experience.</h5>				
+				<h5><!-- We are in qualitative not a quantitative business. People have already seen the current trends and now they want the future one. Following directions and standards in design is not our way, we are here to set them. Our talented team working hard to add true value to the user experience. -->Our design is beyond current standards and directions, with high awareness of usability. We are developing elegant solutions with presentation optimized across a range of displays, adding a true value in every step of the process.</h5>				
 			</div>
 			<div class="text">
 				<h4>Projects</h4>
-				<h5>We work on some of the most interesting and challenging projects where we offer bold, practical and innovative solutions.
-Our focus is on the next generation, current and future trends and enhancing collaboration between software and end users.</h5>				
+				<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</h5>				
 			</div>
 			<div class="text">
 				<h4>Tsst</h4>
@@ -56,23 +55,26 @@ Our focus is on the next generation, current and future trends and enhancing col
 	<div class="our-works">
 		
 		<div class="our-works-box">
-			<h2>Our Works</h2>
+			<h2>*</h2>
 	        <div class="line"></div>
 	        <div class="desc">
-	        	<h5>Dataway’s technology partnerships are based on our broad industry knowledge and expertise, and are carefully chosen on the merits of each partners’ products. We have forged strong relationships with our partners over our long history, and these relationships enable us to deliver the very best solutions to you. We only recommend products that are tested and trusted, and our partners often rely on our feedback to help them evolve their products. Our team is constantly evaluating and researching new offerings as well as proven standards in order to meet our clients' diverse business objectives.</h5>
+	        	<h5>We have all necessary components to create a successful collaboration with our clients, placing everything you need in a single location. From the simplest to the most complex projects, we make every idea possible.</h5>
 			</div>
 			<div class="icon-container">
 				<div class="icon-box">
 					<img src="./local/resources/assets/img/idea2.png">
-					<h5>Support Your Ideas</h5>
+					<h5>Innovative Ideas</h5>
+					<h6>We are here to develop and deliver exceptional ideas for your business, in accordance with your requirements and needs.</h6>
 				</div>
 				<div class="icon-box">
 					<img src="./local/resources/assets/img/team-icon.png">
 					<h5>We Work Together</h5>
+					<h6>Our talented team is  developing solutions with quality and innovation in every line of our code.</h6>
 				</div>
 				<div class="icon-box">
 					<img src="./local/resources/assets/img/support2.png">
 					<h5>Better Client Experience</h5>
+					<h6>Our guideline is improving user experience through better optimized web page, fulfilling our clients preferences.</h6>
 				</div>
 			</div>
 		</div>
