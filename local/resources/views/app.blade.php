@@ -21,9 +21,9 @@
 			</div>
 			<nav>
 				<ul>
-					<li ><a href="">Expertise</a></li>
+					<li ><a href="#about">About Us</a></li>
 					<li ><a href="">Results</a></li>
-					<li ><a href="">About</a></li>
+					<li ><a href=""></a></li>
 					<li ><a href="#howWeDoIt">How We Do It</a></li>
 				</ul>
 			</nav>
