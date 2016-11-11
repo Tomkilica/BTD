@@ -52,6 +52,33 @@ Our focus is on the next generation, current and future trends and enhancing col
 		</div>
 	</div>
 	<!--zavrsava se about us el  -->
+	<!-- pocinje our works el -->
+	<div class="our-works">
+		
+		<div class="our-works-box">
+			<h2>Our Works</h2>
+	        <div class="line"></div>
+	        <div class="desc">
+	        	<h5>Dataway’s technology partnerships are based on our broad industry knowledge and expertise, and are carefully chosen on the merits of each partners’ products. We have forged strong relationships with our partners over our long history, and these relationships enable us to deliver the very best solutions to you. We only recommend products that are tested and trusted, and our partners often rely on our feedback to help them evolve their products. Our team is constantly evaluating and researching new offerings as well as proven standards in order to meet our clients' diverse business objectives.</h5>
+			</div>
+			<div class="icon-container">
+				<div class="icon-box">
+					<img src="./local/resources/assets/img/idea2.png">
+					<h5>Support Your Ideas</h5>
+				</div>
+				<div class="icon-box">
+					<img src="./local/resources/assets/img/team-icon.png">
+					<h5>We Work Together</h5>
+				</div>
+				<div class="icon-box">
+					<img src="./local/resources/assets/img/support2.png">
+					<h5>Better Client Experience</h5>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- pocinje our works el -->
 	<div id="map-canvas"></div>
 	 <div id="howWeDoIt">
     	<div class="howWeDoIt-box">
