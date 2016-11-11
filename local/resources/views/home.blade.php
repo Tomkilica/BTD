@@ -2,18 +2,23 @@
 
 
 @section('content')
-	<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 520px; overflow: hidden; visibility: hidden;">
+	<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 600px; overflow: hidden; visibility: hidden;">
 	    <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
 	        <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
 	        <div style="position:absolute;display:block;background:url('./local/resources/assets/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
 	    </div>
-	    <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 520px; overflow: hidden;">
+	    <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 600px; overflow: hidden;">
 	        <div data-p="225.00" style="display: none;">
 	            <img data-u="image" src="./local/resources/assets/img/home/light-background.jpg" />
-	            <img  data-t="1" style="position: absolute; top: 0px; left: 0px;" src="./local/resources/assets/img/home/8czrjAbji.png" />
-
-	            <div style="position: absolute; top: 25%; left: 30px; left: 50%; width: 440px; height: 60px;margin-left:-220px;font-size: 40px; color: #ffffff; line-height: 60px;">WELCOME TO BTD</div>
-	            <div style="position: absolute; top: 35%; left: 50%; width: 630px; height: 50px;margin-left:-306px; font-size: 40px; color: #ffffff;">Implement Digital Solutions</div>
+	            <img  data-u="caption" data-t="0" style="position: absolute; top: 310px; left: 150px; width: 250px;" src="./local/resources/assets/img/home/imac.png" />
+	            <img  data-u="caption" data-t="1" style="position: absolute; top: 350px; left: 500px; height: 150px;width: 240px;" src="./local/resources/assets/img/home/macbook.png" />
+	            <img  data-u="caption" data-t="2" style="position: absolute; top: 375px;left: 850px; width: 85px;" src="./local/resources/assets/img/home/ipad.png" />
+	            <img  data-u="caption" data-t="3" style="position: absolute; top: 400px;left: 1050px; width: 35px;" src="./local/resources/assets/img/home/iphone.png" />
+	            <img  data-u="caption" data-t="4" style="position: absolute; top: 0px; left: 320px;" src="./local/resources/assets/img/home/8czrjAbji.png" />
+	            <img  data-u="caption" data-t="5" style="position: absolute; top: 0px; left: 680px;width: 170px;" src="./local/resources/assets/img/home/8czrjAbji.png" />
+	            <img  data-u="caption" data-t="6" style="position: absolute; top: 0px; left: 930px; width: 120px;" src="./local/resources/assets/img/home/8czrjAbji.png" />
+	            <div style="position: absolute; top: 15%; left: 30px; left: 50%; width: 540px; height: 60px;margin-left:-270px;font-size: 40px; color: #464746; line-height: 60px;">WELCOME TO BTD Consulting</div>
+	            <div style="position: absolute; top: 25%; left: 50%; width: 510px; height: 50px;margin-left:-250px; font-size: 40px; color: #464746;">Implement Digital Solutions</div>
  	        </div>
 	    <!--    	<div data-p="225.00" style="display: none;">
 	            <img data-u="image" src="./local/resources/assets/img/home/1.jpg" />
@@ -32,9 +37,9 @@
 	    <a href="http://www.jssor.com" style="display:none"></a>
 	</div>
 	<!-- pocinje about us el -->
-	<div id="onama" class="about-us">
+	<div id="about" class="about-us">
 		<div class="container">
-			<h2>WELCOME TO BTD</h2>
+			<h2>About Us</h2>
 			<h3>We are a software service company</h3>
 			<div class="text">
 				<h4>Design</h4>
