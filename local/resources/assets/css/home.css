@@ -81,6 +81,44 @@
     width: 95%;   
 }
 /*zavrsavase about us*/
+/*pocinnje our works*/
+.our-works {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.our-works .our-works-box {
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 0;
+
+}
+.our-works .our-works-box h2 {
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.our-works .icon-container .icon-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.our-works .icon-container .icon-box h5 {    
+    margin-top: 18px;
+    text-align: center;
+}
+.our-works .our-works-box .icon-box {
+    width: 33.3%;
+    float: left;
+}
+.our-works .our-works-box .icon-box img {
+    width: 92px;
+    height: 92px;
+    border: 2px solid #616161;
+    border-radius: 100px;
+}
+/*zavrsava se our works*/
 #map-canvas {
 	width: 100%;
     height: 500px;
