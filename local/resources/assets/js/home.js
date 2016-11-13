@@ -1,16 +1,6 @@
 
 $( document ).ready(function() {
   
-	// $(window).scroll(function() {
-	// 	$('.sl-box .cl').each(function(){
-	// 		var imagePos = $(this).offset().top;
-	// 		var topOfWindow = $(window).scrollTop();
-	// 			if (imagePos < topOfWindow + 800) {
-	// 				$(this).addClass("slideLeft");
-	// 			}
-	// 	});
-	// });
-
 	function scrollNav() {
 		  $('ul a').click(function(){  
 		    //Animate
@@ -26,36 +16,6 @@ $( document ).ready(function() {
   $( ".header-button" ).click(function() {
       $( "header" ).toggleClass( "active" );
   });
-
-  var img = $(".logo-img");
-
-  $(window).scroll(function() {
-    var y = $(this).scrollTop();
-    if (y > 700) {
-      if(!img.hasClass("opacity-0")) {
-        img.fadeOut(100, function() {
-          img.addClass( "opacity-0" );
-          });       
-      }
-    } else {
-      img.fadeIn(100, function() {
-        img.removeClass( "opacity-0" );
-        });
-    }
-  });
-
-  $(".header-button").click(function(){
-    if(img.hasClass("opacity-0")) {
-      img.fadeIn(100, function() {
-        img.removeClass( "opacity-0" );
-        });       
-    } else if(!$(".transperent").hasClass("active") && $(window).scrollTop() > 700) {
-      img.fadeOut(1000, function() {
-        img.addClass( "opacity-0" );
-        });   
-    }
-  });
-  
 
   function initializeMap() {
     	var mapCanvas = document.getElementById('map-canvas');
@@ -80,11 +40,11 @@ $( document ).ready(function() {
         {"featureType": "water","elementType": "labels.text.fill","stylers": [{"color": "#9e9e9e"}]}
       ];
     	var mapOptions = {
-      		center: new google.maps.LatLng(45.009353,20.6423336),
-      		zoom: 16,
+      		center: new google.maps.LatLng(39.969854, -83.023514),
+      		zoom: 14,
       		styles: themeArray,
       		draggable: true,
-      		scrollwheel: true,
+      		scrollwheel: false,
       		panControl: false,
          	zoomControl: true,
          	scaleControl: true,
