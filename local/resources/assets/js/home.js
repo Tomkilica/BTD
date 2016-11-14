@@ -39,7 +39,7 @@ $( document ).ready(function() {
         {"featureType": "water","elementType": "geometry","stylers": [{"color": "#c9c9c9"}]},
         {"featureType": "water","elementType": "labels.text.fill","stylers": [{"color": "#9e9e9e"}]}
       ];
-    	var mapOptions = {
+    	let mapOptions = {
       		center: new google.maps.LatLng(39.969854, -83.023514),
       		zoom: 14,
       		styles: themeArray,
@@ -55,22 +55,12 @@ $( document ).ready(function() {
       		mapTypeId: google.maps.MapTypeId.DEFAULT 
     	}	
     	var map = new google.maps.Map( document.getElementById( "map-canvas" ), mapOptions);
-      	// var image    = {
-      	// 	url: "http://colorcentar.com/colormap.png",
-      	// 	// This marker is 20 pixels wide by 32 pixels tall.
-      	// 	size: new google.maps.Size( 535, 240 ),
-      	// 	// The origin for this image is 0,0.
-      	// 	origin: new google.maps.Point( 0, 0 ),
-      	// 	// The anchor for this image is the base of the flagpole at 0,32.
-      	// 	anchor: new google.maps.Point( 0, 32 )
-      	// };
-        var myLatlng = new google.maps.LatLng(45.009353,20.6423336);
-      	var marker = new google.maps.Marker({
+      var myLatlng = new google.maps.LatLng(39.969854, -83.023514);
+    	var marker = new google.maps.Marker({
       		position: myLatlng,
       		map: map,
       		title: 'BTD'
-      		// icon: image
-      	});
+    	});
 
   }
   google.maps.event.addDomListener(window, 'load', initializeMap);

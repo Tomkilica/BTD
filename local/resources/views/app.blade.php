@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="./local/resources/assets/css/home.css">
 	<link rel="stylesheet" href="./local/resources/assets/fonts/font-awesome/css/font-awesome.min.css">
 	<script src='./local/resources/assets/js/jquery-1.9.1.min.js'></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3fZIaZe94AcqkgJA19jBuewfgpLFpEsU&callback=initMap"
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3fZIaZe94AcqkgJA19jBuewfgpLFpEsU"
     async defer></script>
 	<script src='./local/resources/assets/js/home.js'></script>
 
@@ -28,7 +28,7 @@
 					<li ><a href="#about">About Us</a></li>
 					<li ><a href="#our-works">Our Works</a></li>
 					<li ><a href="#howWeDoIt">How We Do It</a></li>
-					<li ><a href="#contant">Contant</a></li>
+					<li ><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 			<div class="header-button">
@@ -44,7 +44,7 @@
 	@yield('content')
 
   	<footer>
-  		<div id="contant" class="box">
+  		<div id="contact" class="box">
 	  		<div class="container">
 				<div class="contact">
 				 	<div class="logo-box">

@@ -195,11 +195,11 @@
 #howWeDoIt .howWeDoIt-box .logos img:nth-child(4),
 #howWeDoIt .howWeDoIt-box .logos img:nth-child(5),
 #howWeDoIt .howWeDoIt-box .logos img:nth-child(6) {
-    padding-bottom: 50px;
+    padding-bottom: 90px;
 }
 .grey-line {
     height: 2px;
     width: 100%;
-    background: #515151;
+    background: #b3b3b3;
     float: left;
 }

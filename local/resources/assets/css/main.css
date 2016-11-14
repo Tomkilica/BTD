@@ -341,7 +341,7 @@ header.active .box .header-button span i.bar:nth-child(2) {
     }
     header.active {
         height: 100%;
-        width: 205px;
+        width: 175px;
         -webkit-transition: width 0.5s ease-in-out, background-color 0.4s;
         -moz-transition: width 0.5s ease-in-out, background-color 0.4s;
         -o-transition: width 0.5s ease-in-out, background-color 0.4s;
