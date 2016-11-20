@@ -73,7 +73,7 @@ footer .box {
 footer .container {
     padding: 63px 0;
 }
-footer .contact h3 {
+footer .contact .logo-box {
     width: 44%;
     float: left;
 }
@@ -161,7 +161,7 @@ header .grey-line {
 }
 header .box .logo-img {
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 3px;
     width: 10%;
     float: left;
     position: relative;
@@ -201,12 +201,12 @@ header.active .box nav ul li.active-link a {
     color: #1fbdf2;
 }
 header .box nav ul li a {
-    color: #9e9e9e; 
+    color: #383939; 
     text-decoration: none;
     font-size: 15px;    
 }
 header.active .box nav ul li a {
-    color: #9e9e9e;
+    color: #383939;
     text-decoration: none;
     font-size: 15px;    
 }
@@ -258,7 +258,7 @@ header .box .header-button span {
     height: 100%;
 }
 header .box .header-button span i {
-    background-color: #757575;
+    background-color: #383939;
     height: 3px;
     width: 33px;
     display: block;
@@ -271,7 +271,7 @@ header .box .header-button span i {
     transition: top 0.3s 1s, transform 0.2s, opacity 0.2s 1s;
 }
 header.active .box .header-button span i { 
-    background-color: #757575;
+    background-color: #383939;
 }
 header.active .box .header-button span i.bar {
     -webkit-transition: top 0.3s, transform 0.2s 0.3s;
@@ -289,7 +289,7 @@ header .box .header-button span i.bar:nth-child(2) {
     top: 27.5px;    
 }
 header .box .header-button span i.bar:last-child {
-    top: 36px;  
+    top: 38px;  
 }
 header .box .header-button {
     width: 5%;
@@ -353,7 +353,7 @@ header.active .box .header-button span i.bar:nth-child(2) {
     }
     header.active {
         height: 100%;
-        width: 205px;
+        width: 175px;
         -webkit-transition: width 0.5s ease-in-out, background-color 0.4s;
         -moz-transition: width 0.5s ease-in-out, background-color 0.4s;
         -o-transition: width 0.5s ease-in-out, background-color 0.4s;

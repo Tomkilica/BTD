@@ -10,21 +10,25 @@
 	<link rel="stylesheet" type="text/css" href="./local/resources/assets/css/main.css">
 	<link rel="stylesheet" href="./local/resources/assets/fonts/font-awesome/css/font-awesome.min.css">
 	<script src='./local/resources/assets/js/jquery-1.9.1.min.js'></script>
-	<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3fZIaZe94AcqkgJA19jBuewfgpLFpEsU"
+    async defer></script>
 	<script src='./local/resources/assets/js/home.js'></script>
+
+
+
 </head>
 <body>
 	<header class="transperent">
 		<div class="box">
 			<div class="logo-img">
-				<img src="./local/resources/assets/img/logo.png" />
+				<img src="./local/resources/assets/img/logobtd.png" />
 			</div>
 			<nav>
 				<ul>
 					<li ><a href="#about">About Us</a></li>
-					<li ><a href="">Results</a></li>
-					<li ><a href=""></a></li>
+					<li ><a href="#our-works">Our Works</a></li>
 					<li ><a href="#howWeDoIt">How We Do It</a></li>
+					<li ><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 			<div class="header-button">
@@ -40,10 +44,13 @@
 	@yield('content')
 
   	<footer>
-  		<div class="box">
+  		<div id="contact" class="box">
 	  		<div class="container">
 				<div class="contact">
-				 	<h3>Interested in creating with us?</h3>
+				 	<div class="logo-box">
+					 	<h3>Interested in creating with us?</h3>
+						<img src="./local/resources/assets/img/logobtd.png" />
+					</div>
 				 	<div class="info">
 						<h5></h5>
 						<h5></h5>
