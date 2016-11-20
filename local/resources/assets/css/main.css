@@ -46,8 +46,10 @@ h6 {
 .container {
 	position: relative;
 	overflow: hidden;
-	margin:0 auto;
 	width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 footer {
     height: 250px;
@@ -321,6 +323,16 @@ header.active .box .header-button span i.bar:nth-child(2) {
     opacity: 0;
     display: block !important;
 }
+@media (max-width: 1200px){
+    .container,
+    #howWeDoIt .howWeDoIt-box {
+        width: 95%;
+    }
+    .our-works .our-works-box {
+        width: 95% !important;
+    }
+
+}
 @media  screen and (max-width: 1140px) {
     header .box {
         width: 100%;
@@ -385,6 +397,32 @@ header.active .box .header-button span i.bar:nth-child(2) {
         text-align: left;
     }
 }
+@media (max-width: 950px){
+    .container {
+        justify-content: center;
+    }
+    .about-us .container .text {
+        width: 72% !important;
+        padding-bottom: 80px;
+    }
+    .our-works .icon-container {
+        justify-content: center;
+    }
+    .our-works .our-works-box .icon-box {
+        width: 50% ;
+    }
+    .our-works .our-works-box .icon-box h6 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .our-works .desc h5 {
+        width: 80%;
+    }
+   
+
+
+}
+
 @media  screen and (max-width: 620px) {
     header .box .logo-img img {
         width: 56px;
@@ -420,4 +458,14 @@ header.active .box .header-button span i.bar:nth-child(2) {
     header.active .box .header-button span i.bar:first-child {
         top: 23px;
     }
+    .about-us .container .text {
+        width: 90% !important;
+    }
+    .our-works .desc h5 {
+        width: 100%;
+    }
+    .our-works .our-works-box .icon-box {
+        width: 95%;
+    }
+
 }

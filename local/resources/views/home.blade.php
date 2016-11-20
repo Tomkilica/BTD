@@ -43,11 +43,15 @@
 			<h3>We are a software service company</h3>
 			<div class="text">
 				<h4>Design</h4>
-				<h5><!-- We are in qualitative not a quantitative business. People have already seen the current trends and now they want the future one. Following directions and standards in design is not our way, we are here to set them. Our talented team working hard to add true value to the user experience. -->Our design is beyond current standards and directions, with high awareness of usability. We are developing elegant solutions with presentation optimized across a range of displays, adding a true value in every step of the process.</h5>				
+				<h5>Our design is beyond current standards and directions, with high awareness of usability. We are developing elegant solutions with presentation optimized across a range of displays, adding a true value in every step of the process.</h5>
+				<h5>Our extensive experience in design encompasses Custom design (Master page, Page layouts, CSS, Navigation menu), PowerShell scripting, Central Administration, as well as front-end knowledge stack in HTML5, CSS3, jQuery, Bootstrap, StyleSheet extension languages SASS, LESS, MV* frameworks AngularJS 1, AngularJS 2, JavaScript (ES5, ES2015, TypeScript).</h5>				
 			</div>
 			<div class="text">
-				<h4>Projects</h4>
-				<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</h5>				
+				<h4>Knowledge</h4>
+				<h5>Our SharePoint team have much experience with creating applications and features on SharePoint 2007, 2010 and 2013. We made many intranet portals, custom solutions and “Out-of-the-box” functionalities. We have:</h5>
+				 <h5>- Expert skills in creating SharePoint enterprise solutions involving Collaboration, Portals, Enterprise Search Content Management, Business process and Forms.<br>
+				 - Excellent skills in SharePoint Object/App Model, “Out-of-the-Box” functionality of SharePoint, SharePoint Designer, Infopath Designer, custom workflows, Handlers (Event Receivers), Web Part development, Timer jobs, Data views, and SharePoint services.
+				 </h5>				
 			</div>
 			<div class="text">
 				<h4>Tsst</h4>
@@ -92,7 +96,7 @@
 	        <h2>How We Do Software Development</h2>
 	        <div class="line"></div>
 	        <div class="desc">
-	        	<h5>Dataway’s technology partnerships are based on our broad industry knowledge and expertise, and are carefully chosen on the merits of each partners’ products. We have forged strong relationships with our partners over our long history, and these relationships enable us to deliver the very best solutions to you. We only recommend products that are tested and trusted, and our partners often rely on our feedback to help them evolve their products. Our team is constantly evaluating and researching new offerings as well as proven standards in order to meet our clients' diverse business objectives.</h5>
+	        	<h5>Our Software Development is based on broad knowledge and expertise, which is meticulously selected in order to meet our clients needs. Our daily focus is to deliver the best solutions to you and well tested and trusted products, following proven standards and up-to-date technical set of skills.</h5>
 			</div>
             <div class="logos">
                 <img src="./local/resources/assets/img/use/responsive-web-design.png"  alt="">
