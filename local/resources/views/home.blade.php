@@ -95,12 +95,14 @@
 	        <h2>How We Do Software Development</h2>
 	        <div class="line"></div>
 	        <div class="desc">
-	        	<h5>Our Software Development is based on broad knowledge and expertise, which is meticulously selected in order to meet our clients needs. Our daily focus is to deliver the best solutions to you and well tested and trusted products, following proven standards and up-to-date technical set of skills.</h5>
+	        	<h4>Our Software Development is based on broad knowledge and expertise, which is meticulously selected in order to meet our clients needs. Our daily focus is to deliver the best solutions to you and well tested and trusted products, following proven standards and up-to-date technical set of skills.</h4>
 			</div>
             <div class="logos">
                 <img src="./local/resources/assets/img/use/responsive-web-design.png"  alt="">
                 <img src="./local/resources/assets/img/use/MSDotNetFrameworkIcon.png" alt="">
                	<img src="./local/resources/assets/img/use/angular-icon.png" alt="">
+			</div>
+           	<div class="logos">
                 <img src="./local/resources/assets/img/use/web-analytics-data-analysis.png" alt="">
 				<img src="./local/resources/assets/img/use/Internet-php-icon.png" alt="">    
                 <img src="./local/resources/assets/img/use/db.png" alt="">
