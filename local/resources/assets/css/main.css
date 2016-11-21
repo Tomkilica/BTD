@@ -69,14 +69,21 @@ footer .box {
     width: 100%;
     position: relative;
     height: inherit;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 footer .container {
     padding: 63px 0;
 }
 footer .contact .logo-box {
-    width: 44%;
+    width: 100%;
     float: left;
 }
+footer .contact .logo-box h3 {
+    padding-bottom: 20px;
+}
+
 footer .contact .info {
 	width: 30%;
 	float: left;
@@ -399,7 +406,7 @@ header.active .box .header-button span i.bar:nth-child(2) {
 }
 @media (max-width: 950px){
     .container {
-        justify-content: center;
+        justify-content: flex-start;
     }
     .about-us .container .text {
         width: 72% !important;
@@ -418,9 +425,12 @@ header.active .box .header-button span i.bar:nth-child(2) {
     .our-works .desc h5 {
         width: 80%;
     }
-   
-
-
+}
+@media (max-width: 820px){
+    #howWeDoIt .howWeDoIt-box .logos img {
+        width: 21%;
+        height: 29%;
+    }
 }
 
 @media  screen and (max-width: 620px) {
@@ -466,6 +476,12 @@ header.active .box .header-button span i.bar:nth-child(2) {
     }
     .our-works .our-works-box .icon-box {
         width: 95%;
+    }
+    #howWeDoIt .howWeDoIt-box h2 {
+        font-size: 30px;
+    }
+    #howWeDoIt .howWeDoIt-box .desc h4 {
+        font-size: 18px;
     }
 
 }
